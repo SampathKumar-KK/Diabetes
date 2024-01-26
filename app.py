@@ -7,13 +7,10 @@ Created on Thu Jan 25 19:38:19 2024
 
 import pickle
 import streamlit as st
-from streamlit_option_menu import option_menu
+#from streamlit_option_menu import option_menu
 
 loaded_model = pickle.load(open('trained_model.sav','rb'))
 
-
-
-    
 st.title('Diabetes Prediction')
     
     #Getting input data from user.
